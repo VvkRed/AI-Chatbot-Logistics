@@ -4,7 +4,7 @@ lemmatizer = WordNetLemmatizer()
 import pickle
 import numpy as np
 
-from tensorflow.keras.models import load_model
+from tensorflow.python.keras.models import load_model
 model = load_model('chatbot_model.h5')
 import json
 import random
@@ -86,7 +86,7 @@ def send():
  
 
 base = Tk()
-base.title("AdverseEffectsBot")
+base.title("Logistics Bot")
 base.geometry("400x500")
 base.resizable(width=FALSE, height=FALSE)
 
